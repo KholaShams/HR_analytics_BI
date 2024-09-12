@@ -1,5 +1,5 @@
-
-# Table of Contents
+# Case Study_ HR Analytics and Employee Management
+## Table of Contents
 
 - [Introduction](#introduction)
 - [Data Analysis Lifecycle Stages](#data-analysis-lifecycle-stages)
