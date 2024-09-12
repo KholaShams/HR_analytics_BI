@@ -207,10 +207,6 @@ This section interprets the findings from the data analysis and visualization ph
 - **Insight**: A majority of employees are in their 40s, with fewer younger employees.
 - **Action**: Develop programs to attract younger talent and create pathways for career development to retain experienced employees.
 
-### 7. Conclusion
-
-The HR data analysis provided valuable insights into workforce diversity, compensation structures, and employee retention trends. By implementing the recommended strategies, the company can enhance its diversity and inclusion efforts, address salary disparities, improve employee retention, and explore opportunities for expanding its regional workforce. The ongoing monitoring and evaluation of these initiatives will ensure continued alignment with the company's strategic objectives and foster a more inclusive and equitable workplace.
-
 ### 7. Recommendations
 
 Based on the analysis and insights derived, the following recommendations are proposed:
@@ -235,3 +231,6 @@ Based on the analysis and insights derived, the following recommendations are pr
 - **Recommendation**: Explore opportunities to expand the workforce in underrepresented regions.
 - **Action Plan**: Develop localized recruitment strategies and evaluate the potential benefits of diversifying regional talent pools.
 
+### 8. Conclusion
+
+The HR data analysis provided valuable insights into workforce diversity, compensation structures, and employee retention trends. By implementing the recommended strategies, the company can enhance its diversity and inclusion efforts, address salary disparities, improve employee retention, and explore opportunities for expanding its regional workforce. The ongoing monitoring and evaluation of these initiatives will ensure continued alignment with the company's strategic objectives and foster a more inclusive and equitable workplace.
