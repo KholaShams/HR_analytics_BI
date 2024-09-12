@@ -1,33 +1,33 @@
 # Contents
 
-- [Introduction](#introduction) 2
-- [Data Analysis Lifecycle Stages](#data-analysis-lifecycle-stages) 2
-  1. [Business Understanding](#business-understanding) 2
-  2. [Data Understanding](#data-understanding) 2
-    1. [Data Sources](#data-sources) 2
-    2. [Key Metrics](#key-metrics) 3
-  3. [Data Preparation (Cleaning)](#data-preparation-cleaning) 3
-    1. [Data Cleaning Steps](#data-cleaning-steps) 3
-  4. [Data Analysis](#data-analysis) 4
-    1. [Descriptive Analysis](#descriptive-analysis) 4
-    2. [Diagnostic Analysis](#diagnostic-analysis) 4
-  5. [Data Visualization](#data-visualization) 5
-    1. [Gender and Ethnicity Breakdown](#gender-and-ethnicity-breakdown) 5
-    2. [Salary and Bonus Distribution](#salary-and-bonus-distribution) 5
-    3. [Hiring and Exit Trends](#hiring-and-exit-trends) 5
-    4. [Tenure and Retention Analysis](#tenure-and-retention-analysis) 5
-    5. [Geographical Distribution of Employees](#geographical-distribution-of-employees) 6
-  6. [Data Interpretation and Insights](#data-interpretation-and-insights) 6
-    1. [Gender and Ethnic Diversity](#gender-and-ethnic-diversity) 6
-    2. [Salary Inequity](#salary-inequity) 6
-    3. [Turnover and Retention](#turnover-and-retention) 6
-    4. [Age and Tenure](#age-and-tenure) 6
-  7. [Recommendations](#recommendations) 6
-    1. [Strengthening Diversity and Inclusion](#strengthening-diversity-and-inclusion) 7
-    2. [Addressing Salary Disparities](#addressing-salary-disparities) 7
-    3. [Enhancing Retention Strategies](#enhancing-retention-strategies) 7
-    4. [Expanding Regional Workforce](#expanding-regional-workforce) 7
-  8. [Conclusion](#conclusion) 7
+- [Introduction](#introduction) 
+- [Data Analysis Lifecycle Stages](#data-analysis-lifecycle-stages) 
+  1. [Business Understanding](#business-understanding) 
+  2. [Data Understanding](#data-understanding) 
+    1. [Data Sources](#data-sources) 
+    2. [Key Metrics](#key-metrics) 
+  3. [Data Preparation (Cleaning)](#data-preparation-cleaning) 
+    1. [Data Cleaning Steps](#data-cleaning-steps) 
+  4. [Data Analysis](#data-analysis) 
+    1. [Descriptive Analysis](#descriptive-analysis) 
+    2. [Diagnostic Analysis](#diagnostic-analysis) 
+  5. [Data Visualization](#data-visualization) 
+    1. [Gender and Ethnicity Breakdown](#gender-and-ethnicity-breakdown) 
+    2. [Salary and Bonus Distribution](#salary-and-bonus-distribution) 
+    3. [Hiring and Exit Trends](#hiring-and-exit-trends) 
+    4. [Tenure and Retention Analysis](#tenure-and-retention-analysis) 
+    5. [Geographical Distribution of Employees](#geographical-distribution-of-employees) 
+  6. [Data Interpretation and Insights](#data-interpretation-and-insights) 
+    1. [Gender and Ethnic Diversity](#gender-and-ethnic-diversity) 
+    2. [Salary Inequity](#salary-inequity) 
+    3. [Turnover and Retention](#turnover-and-retention) 
+    4. [Age and Tenure](#age-and-tenure) 
+  7. [Recommendations](#recommendations)
+    1. [Strengthening Diversity and Inclusion](#strengthening-diversity-and-inclusion) 
+    2. [Addressing Salary Disparities](#addressing-salary-disparities) 
+    3. [Enhancing Retention Strategies](#enhancing-retention-strategies) 
+    4. [Expanding Regional Workforce](#expanding-regional-workforce) 
+  8. [Conclusion](#conclusion) 
 
 ## Introduction
 
