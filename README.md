@@ -149,25 +149,25 @@ This phase focused on identifying reasons behind key trends and patterns.
 To enhance understanding and provide actionable insights, various visualizations were created using Power BI, supplemented with Python scripts where necessary, to display trends, relationships, and distributions across different HR aspects:
 
 #### 5.1 Gender and Ethnicity Breakdown
-
-- **Pie/Donut Charts**: Displayed the gender distribution within the company, helping to visualize the proportion of male and female employees across departments.
-- **Stacked Bar Chart**: Used to show the ethnic distribution across different business units, highlighting areas with greater or lesser diversity.
+- **Pie/Donut Charts:** Displayed the gender distribution within the company, helping to visualize the proportion of male and female employees across departments.
+- **Stacked Bar Chart:** Used to show the ethnic distribution across different business units, highlighting areas with greater or lesser diversity.
 
 #### 5.2 Salary and Bonus Distribution
-
-- **Histogram**: Visualized the distribution of annual salaries, showing the frequency of different salary ranges within the company.
+- **Histogram:** Visualized the distribution of annual salaries, showing the frequency of different salary ranges within the company.
 
 #### 5.3 Hiring and Exit Trends
-
-- **Line Graphs**: Plotted the number of hires and exits over time to visualize trends and identify any patterns related to recruitment and retention.
+- **Line Charts:** Depicted hiring trends over time, showing the number of employees hired during different time periods. Another line chart was created for exit trends, revealing which timeframes saw higher employee turnover.
+- **Gauge Chart:** Calculated and displayed the overall turnover rate, providing a clear view of how many employees exited the company relative to the total number of employees.
 
 #### 5.4 Tenure and Retention Analysis
-
-- **Box Plot**: Displayed the distribution of employee tenure, allowing identification of median tenure and variance.
+- **Bar Chart:** Showcased average tenure by department and job title, helping to identify which areas of the business had the longest or shortest employee tenures.
+- **Stacked Column Chart:** Analyzed tenure by demographics (e.g., gender, age, ethnicity), revealing patterns in retention across different demographic groups. This provided insight into whether certain groups had a higher or lower average tenure.
 
 #### 5.5 Geographical Distribution of Employees
+- **Scatter Map:** Displayed the distribution of employees across countries and cities, providing a clear view of employee concentrations and helping identify regions with the largest employee presence.
+- **Tree Map:** Used to visualize employee counts by city and country, emphasizing areas with higher concentrations of staff.
 
-- **Geographic Heat Map**: Showed the distribution of employees across different countries, highlighting regions with the most and least representation.
+Each of these visualizations played a key role in uncovering actionable insights related to diversity, retention, and compensation, providing the company with a data-driven foundation for optimizing HR practices.
 
 ### 6. Data Interpretation and Insights
 
