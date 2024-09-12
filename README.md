@@ -1,1 +1,213 @@
-# HR_analytics_BI
+# Contents
+
+- [Introduction](#introduction) 2
+- [Data Analysis Lifecycle Stages](#data-analysis-lifecycle-stages) 2
+  1. [Business Understanding](#business-understanding) 2
+  2. [Data Understanding](#data-understanding) 2
+    1. [Data Sources](#data-sources) 2
+    2. [Key Metrics](#key-metrics) 3
+  3. [Data Preparation (Cleaning)](#data-preparation-cleaning) 3
+    1. [Data Cleaning Steps](#data-cleaning-steps) 3
+  4. [Data Analysis](#data-analysis) 4
+    1. [Descriptive Analysis](#descriptive-analysis) 4
+    2. [Diagnostic Analysis](#diagnostic-analysis) 4
+  5. [Data Visualization](#data-visualization) 5
+    1. [Gender and Ethnicity Breakdown](#gender-and-ethnicity-breakdown) 5
+    2. [Salary and Bonus Distribution](#salary-and-bonus-distribution) 5
+    3. [Hiring and Exit Trends](#hiring-and-exit-trends) 5
+    4. [Tenure and Retention Analysis](#tenure-and-retention-analysis) 5
+    5. [Geographical Distribution of Employees](#geographical-distribution-of-employees) 6
+  6. [Data Interpretation and Insights](#data-interpretation-and-insights) 6
+    1. [Gender and Ethnic Diversity](#gender-and-ethnic-diversity) 6
+    2. [Salary Inequity](#salary-inequity) 6
+    3. [Turnover and Retention](#turnover-and-retention) 6
+    4. [Age and Tenure](#age-and-tenure) 6
+  7. [Recommendations](#recommendations) 6
+    1. [Strengthening Diversity and Inclusion](#strengthening-diversity-and-inclusion) 7
+    2. [Addressing Salary Disparities](#addressing-salary-disparities) 7
+    3. [Enhancing Retention Strategies](#enhancing-retention-strategies) 7
+    4. [Expanding Regional Workforce](#expanding-regional-workforce) 7
+  8. [Conclusion](#conclusion) 7
+
+## Introduction
+
+This report provides an in-depth analysis of HR data focusing on employee demographics, diversity, salary distribution, and retention trends. The insights aim to support decision-making related to recruitment, employee development, diversity initiatives, and compensation strategies. The report follows the Data Analysis Lifecycle, beginning from data collection, cleaning, and ending with actionable recommendations based on insights from data analysis.
+
+## Data Analysis Lifecycle Stages
+
+### 1. Business Understanding
+
+The primary objective of this analysis was to gain insights into the following:
+- The diversity and demographics of the workforce.
+- Compensation patterns across various departments and job titles.
+- Employee retention trends and areas with high turnover.
+- The distribution of employees across different geographies.
+
+The overall goal was to derive actionable recommendations for improving diversity, retention, compensation, and strategic hiring.
+
+### 2. Data Understanding
+
+#### 2.1 Data Sources
+
+The data provided consisted of the following attributes:
+- **Employee ID**: Unique identifier for each employee.
+- **First Name/Last Name**: Employee's name.
+- **Gender**: Gender of the employee.
+- **Ethnicity**: Ethnic background of the employee.
+- **Age**: Age of the employee.
+- **Job Title**: Current role or position.
+- **Department**: Department to which the employee belongs.
+- **Salary**: Annual salary.
+- **Bonus %**: Percentage of bonus relative to salary.
+- **Date of Hire**: When the employee was hired.
+- **Country/City**: Geographic location of the employee.
+- **Tenure**: Number of years the employee has been with the company.
+
+#### 2.2 Key Metrics
+
+- **Diversity Metrics**: Gender, ethnicity, and age distribution.
+- **Compensation Metrics**: Salary and bonus percentages by job title and department.
+- **Retention Metrics**: Hire and exit trends, turnover rates, and employee tenure.
+
+### 3. Data Preparation (Cleaning)
+
+The data cleaning process focused on ensuring consistency and accuracy in the dataset:
+
+#### 3.1 Data Cleaning Steps
+
+1. **Correcting Data Types**:
+   - Ensured that numeric fields like Salary, Bonus%, and Tenure were appropriately cast as numbers.
+   - Text fields such as Job Title, Department, and Country were treated as categorical data.
+   - Dates, such as Hire Date, were correctly formatted as date types.
+
+2. **Handling Missing Data**:
+   - Verified that all rows contained complete information for key metrics.
+   - Where possible, inferred missing values or flagged incomplete records for future data collection.
+
+3. **Removing Duplicates**:
+   - Ensured that there were no duplicate employee entries.
+
+4. **Standardizing Formats**:
+   - Standardized the format of Country and City names to maintain consistency across geographic data.
+
+The data was now ready for analysis, with appropriate data types and cleaned fields.
+
+### 4. Data Analysis
+
+#### 4.1 Descriptive Analysis
+
+This phase focused on identifying general trends in the dataset using key metrics and visualizations.
+
+##### 4.1.1 Demographics Analysis
+
+- **Gender**: A balanced gender distribution, with women occupying more senior roles than men.
+- **Ethnicity**: Diverse ethnic representation, though Black employees constituted a smaller portion (10%) of the workforce, particularly at senior levels.
+- **Age**: Majority of employees were in their 40s, with fewer in their 20s and 60s.
+
+##### 4.1.2 Geographical Distribution
+
+- The majority of employees were based in Seattle, with Brazil (Manaus) being the least represented region.
+
+##### 4.1.3 Job Title and Department
+
+- IT and Engineering had the highest employee numbers, while Support Roles were underrepresented.
+
+##### 4.1.4 Salary Distribution
+
+- Salaries showed disparities across locations, with Seattle employees earning significantly higher than those in Manaus.
+
+#### 4.2 Diagnostic Analysis
+
+This phase focused on identifying reasons behind key trends and patterns.
+
+##### 4.2.1 Gender and Leadership
+
+- **Observation**: Women were more prevalent in senior roles than men.
+- **Diagnosis**: This may be a result of promotion policies favoring gender diversity at leadership levels.
+
+##### 4.2.2 Ethnic Disparity in Leadership
+
+- **Observation**: Black employees were less represented in senior positions.
+- **Diagnosis**: This may be due to barriers in career progression for minority employees or inadequate diversity-driven leadership programs.
+
+##### 4.2.3 Salary Disparities by Location
+
+- **Observation**: Salaries were significantly higher in Seattle than in Manaus.
+- **Diagnosis**: This may be due to geographic cost-of-living differences or unequal compensation structures between regions.
+
+### 5. Data Visualization
+
+To enhance understanding and provide actionable insights, various visualizations were created using Power BI, supplemented with Python scripts where necessary, to display trends, relationships, and distributions across different HR aspects:
+
+#### 5.1 Gender and Ethnicity Breakdown
+
+- **Pie/Donut Charts**: Displayed the gender distribution within the company, helping to visualize the proportion of male and female employees across departments.
+- **Stacked Bar Chart**: Used to show the ethnic distribution across different business units, highlighting areas with greater or lesser diversity.
+
+#### 5.2 Salary and Bonus Distribution
+
+- **Histogram**: Visualized the distribution of annual salaries, showing the frequency of different salary ranges within the company.
+
+#### 5.3 Hiring and Exit Trends
+
+- **Line Graphs**: Plotted the number of hires and exits over time to visualize trends and identify any patterns related to recruitment and retention.
+
+#### 5.4 Tenure and Retention Analysis
+
+- **Box Plot**: Displayed the distribution of employee tenure, allowing identification of median tenure and variance.
+
+#### 5.5 Geographical Distribution of Employees
+
+- **Geographic Heat Map**: Showed the distribution of employees across different countries, highlighting regions with the most and least representation.
+
+### 6. Data Interpretation and Insights
+
+This section interprets the findings from the data analysis and visualization phases:
+
+#### 6.1 Gender and Ethnic Diversity
+
+- **Insight**: The company has a gender-balanced workforce, but there is room for improvement in ethnic diversity at higher levels.
+- **Action**: Implement targeted diversity initiatives and review career progression pathways for minority groups.
+
+#### 6.2 Salary Inequity
+
+- **Insight**: Significant salary disparities exist between different geographic locations.
+- **Action**: Conduct a comprehensive review of compensation structures and adjust salaries to ensure fair pay relative to cost-of-living differences.
+
+#### 6.3 Turnover and Retention
+
+- **Insight**: High turnover rates in certain departments suggest possible dissatisfaction or burnout.
+- **Action**: Investigate the causes of high turnover and develop strategies to improve employee satisfaction and retention.
+
+#### 6.4 Age and Tenure
+
+- **Insight**: A majority of employees are in their 40s, with fewer younger employees.
+- **Action**: Develop programs to attract younger talent and create pathways for career development to retain experienced employees.
+
+### 7. Recommendations
+
+Based on the analysis and insights derived, the following recommendations are proposed:
+
+#### 7.1 Strengthening Diversity and Inclusion
+
+- **Recommendation**: Enhance diversity and inclusion programs, with a focus on improving ethnic diversity at senior levels.
+- **Action Plan**: Implement mentorship programs and diversity training for employees and leaders.
+
+#### 7.2 Addressing Salary Disparities
+
+- **Recommendation**: Address salary inequities by reviewing and adjusting compensation structures.
+- **Action Plan**: Conduct market comparisons and ensure salary adjustments are made based on cost-of-living and role responsibilities.
+
+#### 7.3 Enhancing Retention Strategies
+
+- **Recommendation**: Develop and implement strategies to reduce turnover, particularly in high-exit departments.
+- **Action Plan**: Improve employee engagement, review career development opportunities, and adjust workload expectations.
+
+#### 7.4 Expanding Regional Workforce
+
+- **Recommendation**: Explore opportunities to expand the workforce in underrepresented regions.
+- **Action Plan**: Develop localized recruitment strategies and evaluate the potential benefits of diversifying regional talent pools.
+
+### 8. Conclusion
+
+The HR data analysis provided valuable insights into workforce diversity, compensation structures, and employee retention trends. By implementing the recommended strategies, the company can enhance its diversity and inclusion efforts, address salary disparities, improve employee retention, and explore opportunities for expanding its regional workforce. The ongoing monitoring and evaluation of these initiatives will ensure continued alignment with the company's strategic objectives and foster a more inclusive and equitable workplace.
