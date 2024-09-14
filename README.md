@@ -151,31 +151,38 @@ To enhance understanding and provide actionable insights, various visualizations
 
 #### 5.1 Gender and Ethnicity Breakdown
 - **Pie/Donut Charts:** Displayed the gender distribution within the company, helping to visualize the proportion of male and female employees across departments.
+  
  ![2](https://github.com/user-attachments/assets/44202519-0f11-46e5-9e09-7a8ab122f283)
 
 - **Stacked Bar Chart:** Used to show the ethnic distribution across different business units, highlighting areas with greater or lesser diversity.
+  
 ![1](https://github.com/user-attachments/assets/9602b62c-0169-405a-b141-edd7333c36ad)
 
 #### 5.2 Salary and Bonus Distribution
 - **Histogram:** Visualized the distribution of annual salaries, showing the frequency of different salary ranges within the company.
+  
 ![5](https://github.com/user-attachments/assets/946c8d76-e29d-4e23-9c47-3b82ff1fbe9f)
 
 #### 5.3 Hiring and Exit Trends
 - **Line Charts:** Depicted hiring trends over time, showing the number of employees hired during different time periods. Another line chart was created for exit trends, revealing which timeframes saw higher employee turnover.
+  
 ![7](https://github.com/user-attachments/assets/ee95fba1-3773-4c0b-9443-f2d67eb1a87a)
 
 - **Gauge Chart:** Calculated and displayed the overall turnover rate, providing a clear view of how many employees exited the company relative to the total number of employees.
+  
 ![6](https://github.com/user-attachments/assets/5d06913a-0849-48b8-b58a-7fb2e73181fa)
 
 
 #### 5.4 Tenure and Retention Analysis
 - **Bar Chart:** Showcased average tenure by department and job title, helping to identify which areas of the business had the longest or shortest employee tenures.
 - **Stacked Column Chart:** Analyzed tenure by demographics (e.g., gender, age, ethnicity), revealing patterns in retention across different demographic groups. This provided insight into whether certain groups had a higher or lower average tenure.
+  
 ![4](https://github.com/user-attachments/assets/6e5bf30e-73a7-4026-9aad-90cc04175540)
 
 #### 5.5 Geographical Distribution of Employees
 - **Scatter Map:** Displayed the distribution of employees across countries and cities, providing a clear view of employee concentrations and helping identify regions with the largest employee presence.
 - **Tree Map:** Used to visualize employee counts by city and country, emphasizing areas with higher concentrations of staff.
+  
 ![3](https://github.com/user-attachments/assets/57a02134-2f33-4ae5-89ed-d71cb578120f)
 
 Each of these visualizations played a key role in uncovering actionable insights related to diversity, retention, and compensation, providing the company with a data-driven foundation for optimizing HR practices.
